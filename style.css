@@ -1,0 +1,60 @@
+body{
+    background-image: url(képek/hatter.jpg);
+    
+    
+    
+    
+}
+main{
+    border: white solid 1px;
+    margin: 10px;
+    
+    
+}
+                      
+h1{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(156, 108, 3);
+    text-align: center;
+    
+}
+article{
+    border: white solid 1px;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 25px;
+}
+aside{
+    border: white solid 1px;
+    color: rgb(255, 247, 247);
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+    
+    
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    max-width: 100%;
+}
