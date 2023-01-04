@@ -73,3 +73,20 @@ footer{
     text-align: center;
     color: white;
 }
+.kapcsolat{
+    margin: 50px;
+    text-align: center;
+    border: solid white 1px;
+    max-width: 100%;
+    
+}
+.kapcs{
+    margin: 50px;
+    text-align: center;
+    border: solid white 1px;
+    max-width: 100%;
+}
+.kapcsart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
