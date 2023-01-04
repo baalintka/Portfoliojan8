@@ -20,21 +20,34 @@ h1{
     
 }
 article{
-    border: white solid 1px;
-    color: white;
-    text-align: center;
+    
+    color: rgb(247, 252, 252);
+    text-align: justify;
     max-width: 100%;
     overflow: hidden;
     font-size: 25px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 aside{
-    border: white solid 1px;
-    color: rgb(255, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    color: rgb(247, 252, 252);
     font-size: 25px;
-    text-align: center;
-    width: 50%;
+    text-align: justify;
+    padding: 10px;
+    max-width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.as{
+    border: solid white 1px;
+    padding: 10px;
+}
+.as2{
+    border: solid white 1px;
+    padding: 10px;   
+}
 
 li a {
     display: block;
@@ -43,11 +56,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li {
-    float: left;
-    
-    
-}
+
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -57,6 +66,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     max-width: 100%;
+    
 }
 footer{
     border: white solid 1px;
