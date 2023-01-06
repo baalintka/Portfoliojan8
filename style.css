@@ -21,7 +21,7 @@ h1{
 }
 .h22{
     border-bottom: white solid 1px ;
-    width: 50%;
+    width: 40%;
 }
 article{
     
@@ -50,6 +50,8 @@ aside{
 .videojatek{
     
     text-align: center;
+    border-bottom: solid white 1px;
+    
 }
 .as{
     border: solid white 1px;
