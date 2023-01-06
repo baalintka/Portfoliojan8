@@ -6,7 +6,7 @@ body{
     
 }
 main{
-    border: white solid 1px;
+    
     margin: 10px;
     
     
@@ -19,6 +19,10 @@ h1{
     text-align: center;
     
 }
+.h22{
+    border-bottom: white solid 1px ;
+    width: 50%;
+}
 article{
     
     color: rgb(247, 252, 252);
@@ -29,9 +33,12 @@ article{
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.foart{
+    width:  70%; 
+}
 aside{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 2fr 2fr 1fr ;
     
     color: rgb(247, 252, 252);
     font-size: 25px;
@@ -40,15 +47,75 @@ aside{
     max-width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.videojatek{
+    
+    text-align: center;
+}
 .as{
     border: solid white 1px;
     padding: 10px;
+    margin-bottom: 15px;
 }
 .as2{
     border: solid white 1px;
     padding: 10px;   
+    margin-bottom: 15px;
+}
+.as3{
+    border: solid white 1px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.qwe{
+    
+    margin-left: 200px;
+    max-width: 100%;
+}
+.left{
+    
+    color: rgb(247, 252, 252);
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    max-width: 100%;
+    width: 70%;
+    margin-bottom: 60px;
+    border-bottom: solid white 2px;
+   
+}
+.right{
+    
+    color: rgb(247, 252, 252);
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    max-width: 100%;
+    width: 70%;
+    
+}
+.right2{
+    
+    color: rgb(247, 252, 252);
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    
+    border-bottom: solid white 2px;
+    
+    
+}
+.hobbik{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
 }
 
+.gamee{
+    padding-left: 50px;
+    margin-left: 100px;
+}
 li a {
     display: block;
     color: white;
@@ -73,20 +140,26 @@ footer{
     text-align: center;
     color: white;
 }
+
 .kapcsolat{
-    margin: 50px;
+    
     text-align: center;
     border: solid white 1px;
-    max-width: 100%;
+    width: 100%;
     
 }
 .kapcs{
-    margin: 50px;
+    
     text-align: center;
     border: solid white 1px;
     max-width: 100%;
+}
+.kapcs img{
+    margin-top: 10px;
+    
 }
 .kapcsart{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 100%;
 }
