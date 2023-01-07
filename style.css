@@ -17,12 +17,14 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(156, 108, 3);
     text-align: center;
+    font-size: 50px;
     
 }
 .h22{
     border-bottom: white solid 1px ;
-    width: 40%;
+    width: 25%;
 }
+
 article{
     
     color: rgb(247, 252, 252);
@@ -33,12 +35,23 @@ article{
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.foart{
-    width:  70%; 
+.pp{
+    padding: 20px;
+    text-align: right;
+    width:  100%;
+    margin: auto;
 }
+.foart{
+    margin: auto;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 aside{
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-columns: 1fr 1fr  ;
     
     color: rgb(247, 252, 252);
     font-size: 25px;
@@ -53,23 +66,21 @@ aside{
     border-bottom: solid white 1px;
     
 }
+.B{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin-bottom: 40px;
+}
 .as{
-    border: solid white 1px;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-.as2{
-    border: solid white 1px;
-    padding: 10px;   
-    margin-bottom: 15px;
-}
-.as3{
-    border: solid white 1px;
-    padding: 10px;
-    margin-bottom: 15px;
+    border: solid white 3px;
+    text-align: center;
+    
+    margin: auto;
+    
 }
 .qwe{
-    
+    margin-top: 40px;
     margin-left: 200px;
     max-width: 100%;
 }
@@ -85,6 +96,16 @@ aside{
     border-bottom: solid white 2px;
    
 }
+.left2{
+    color: rgb(247, 252, 252);
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    max-width: 100%;
+    width: 70%;
+    margin-bottom: 60px;
+    border-bottom: solid white 2px;
+}
 .right{
     
     color: rgb(247, 252, 252);
@@ -94,24 +115,32 @@ aside{
     max-width: 100%;
     width: 70%;
     
+    
 }
 .right2{
     
     color: rgb(247, 252, 252);
     font-size: 25px;
     text-align: right;
-    padding: 10px;
-    max-width: 100%;
-    margin-bottom: 100px;
-    
     border-bottom: solid white 2px;
+    margin-right: 50px;
     
     
+}
+.right3{
+    text-align: right;
+    padding-top: 40px;
+}
+.munkak{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
 .hobbik{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    padding-right: 10px;
+    
 }
 
 .gamee{
