@@ -223,14 +223,19 @@ footer{
     text-align: center;
     border: solid white 1px;
     width: 100%;
-    margin: auto;
+   
+
+    
     
 }
 .kapcs{
     
     text-align: center;
     border: solid white 1px;
-    max-width: 100%;
+    padding: 5px;
+    
+    margin: auto;
+    
     
 }
 .kapcs img{
@@ -241,6 +246,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 100%;
+    
 }
 @media only screen and (max-width: 700px) {
     .hobbik {
