@@ -14,7 +14,7 @@ main{
 .ww{
     text-align: center;
     color: rgb(247, 252, 252);
-    max-width: 100%;
+    
     font-size: 55px;
     border: white solid 1px ;
     margin-left: 200px;
@@ -220,6 +220,7 @@ footer{
     text-align: center;
     border: solid white 1px;
     width: 100%;
+    margin: auto;
     
 }
 .kapcs{
@@ -227,7 +228,7 @@ footer{
     text-align: center;
     border: solid white 1px;
     max-width: 100%;
-    margin: auto;
+    
 }
 .kapcs img{
     margin-top: 10px;
@@ -238,3 +239,23 @@ footer{
     grid-template-columns: 1fr 1fr;
     max-width: 100%;
 }
+@media only screen and (max-width: 700px) {
+    .hobbik {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .kapcsart{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .B {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+
