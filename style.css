@@ -57,7 +57,10 @@ article{
     color: rgb(247, 252, 252);
     font-size: 25px;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 15px;
+    border-bottom: solid white 1px;
+    width: 25%;
+    
 }
 .pp{
     
