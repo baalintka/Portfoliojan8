@@ -57,20 +57,31 @@ article{
     
     
 }
-.pp{
-    
-    text-align: right;
-    width:  100%;
+.en2,.en{
+    text-align: justify;
+    max-width:  100%;
+    padding-bottom: 20px;
+}
+.navfo{
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
+a:hover {
+    color: rgb(73, 243, 5);
+  }
+
 a {
     color: rgb(147, 252, 9);
     text-decoration: underline;
   }
 .foart{
+    
     margin: auto;
     letter-spacing: 2px;
-    padding-right: 10px;
+    
+    max-width:  100%;
+    width: 60%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -87,7 +98,7 @@ aside{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .videojatek{
-    
+    font-weight: bold;
     text-align: center;
     border-bottom: solid white 1px;
     
@@ -104,57 +115,56 @@ aside{
     margin: auto;
     
 }
-.qwe{
-    text-align: center;
+.gamekep{
+    max-width: 100%;
     margin-top: 40px;
-    margin-right: 200px;
+    margin: auto;
     max-width: 100%;
 }
-.left{
+.videojatek1{
     
     color: rgb(247, 252, 252);
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     max-width: 100%;
-    width: 70%;
     margin-bottom: 60px;
     border-bottom: solid white 2px;
    
 }
-.left2{
+.utazas{
     color: rgb(247, 252, 252);
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     
     max-width: 100%;
-    width: 80%;
+    
     margin-bottom: 60px;
     border-bottom: solid white 2px;
 }
-.right{
+.holdaskep{
     
     color: rgb(247, 252, 252);
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     
     max-width: 100%;
-    width: 70%;
+    
     
     
 }
-.right2{
+.urkutatas{
     
     color: rgb(247, 252, 252);
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     border-bottom: solid white 2px;
-    margin-right: 170px;
+    
     
     
 }
-.right3{
-    text-align: right;
+.utazoskep{
+    text-align: center;
     padding-top: 40px;
     padding-right: 120px;
     
@@ -170,8 +180,7 @@ aside{
 .hobbik{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-right: 10px;
-    margin: auto;
+    max-width: 100%;
     letter-spacing: 3px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -238,9 +247,22 @@ footer{
     
 }
 @media only screen and (max-width: 700px) {
-    .hobbik , .kapcsart, .B,.foart{
+    ul{
+        display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 700px) {
+     .kapcsart, .B,ul{
       display: grid;
       grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .hobbik{
+        display: grid;
+      grid-template-columns: 1fr;
+      width: 70%;
     }
 }
 
